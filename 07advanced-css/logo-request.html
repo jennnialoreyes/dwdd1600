@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name ="author" content="Jennifer Reyes">
+    <meta name ="description" content = "Jennifer Reyes Graphic Design Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="traveler.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+   <title>Request a Design | Jennifer Reyes</title>
+    <link rel="icon" type="images/webp" href="images/logo2.webp">
+</head>
+
+<body>
+
+    <header class="site-header">
+    <img src="images/logo2.webp" alt="Jennifer Reyes Logo" width="64" height="50">
+    <div>
+        <h3>Jennifer Reyes</h3>
+  
+    </div>
+</header>
+   <h1>Request a Design</h1>
+
+
+<nav>
+   <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="projects.html">Projects</a></li>
+       <li class="active"><a href="logo-request.html">Request a Design</a></li>
+   </ul>
+</nav>
+
+<main>
+   <h2>Request Form</h2>
+   <p>Fill out this form to request a logo, poster, illustration, or any custom design.</p>
+
+   <form method="get" class="myForm" action="thanks.html">
+
+   <fieldset>
+       <legend>Contact Information</legend>
+       <label>Your Name*<input type="text" name="name" required></label>
+       <label>Email*<input type="email" name="email" required></label>
+       <label>Phone Number<input type="tel" name="phone" placeholder="987-555-1234"></label>
+   </fieldset>
+
+   <fieldset>
+       <legend>Project Type</legend>
+       <label><input type="radio" name="project" value="logo"> Logo Design</label>
+       <label><input type="radio" name="project" value="branding"> Branding Package</label>
+       <label><input type="radio" name="project" value="illustration"> Illustration</label>
+       <label><input type="radio" name="project" value="poster"> Poster / Print Design</label>
+   </fieldset>
+
+   <fieldset>
+       <legend>Project Details</legend>
+       <label>Preferred Style
+           <select name="style">
+               <option value="none">Please Select</option>
+               <option value="minimalist">Minimalist</option>
+               <option value="cute">Cute / Soft</option>
+               <option value="retro">Retro / Vintage</option>
+               <option value="bold">Bold / Contrast</option>
+           </select>
+       </label>
+       
+
+
+       <label>Budget Range
+           <select name="budget">
+               <option value="none">Please Select</option>
+               <option value="50-100">$50–$100</option>
+               <option value="100-200">$100–$200</option>
+               <option value="200-400">$200–$400</option>
+               <option value="custom">Custom Budget</option>
+           </select>
+       </label>
+
+        <label>
+        <input type="checkbox" name="rush" value="yes">
+        I need this project rushed (additional fees may apply)
+        </label>
+
+
+   </fieldset>
+
+   <label for="description">Project Description</label>
+<textarea id="description" name="description" placeholder="Tell me what you are looking for..."></textarea>
+   
+
+   <input type="submit" value="Submit Request">
+   </form>
+</main>
+
+<footer>
+   <p>&copy; 2025 | Jennifer Reyes &bull; All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
